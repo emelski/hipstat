@@ -273,7 +273,7 @@ parser.add_option("-o", "--output",
                   default="")
 parser.add_option("-r", "--report", 
                   dest="report",
-                  help="report to generate (wordfreq or heatmap)",
+                  help="report to generate (wordfreq, heatmap, speakers, engagement)",
                   metavar="NAME", 
                   default="heatmap")
 parser.add_option("-w", "--wordle", 
